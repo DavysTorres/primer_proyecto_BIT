@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'poetsenone';
+    src: url('../fonts/PoetsenOne-Regular.ttf');
+  }
+  
+  
+  body{
+    background: url("../img/fondoTourWalk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .navbar{
+    background-color: #293B56;
+  }
+  
+  .icon{
+    width: 80px;
+  }
+  
+  .nav-link{
+    text-decoration: none;
+    font-family: 'poetsenone';
+    font-size: 20px;
+    color: white;
+  }
+  
+  .logo-red img{
+    width: 40px;
+  }
+  
+  .btn img{
+    width: 30px;
+  }
+  
+  .text-centro{
+    font-family: 'poetsenone';
+    font-size: 10px;
+    color: white;
+  }
+  
+  .main-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poetsenone';  
+  }
+
+  .img-size {
+    width:150px;
+    margin-bottom: none;
+  }
+
+  .texto{ 
+    text-wrap: pretty;
+  }
+
+  .radio-caja{
+    border-radius: 30px;
+
+  }
+
+  .carta-color{
+
+    background-color: #f2e9d4;
+  }
