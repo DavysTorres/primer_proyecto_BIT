@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'poetsenone';
+    src: url('../fonts/PoetsenOne-Regular.ttf');
+}
+
+
+body {
+    background: url("../img/fondoTourWalk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar {
+    background-color: #293B56;
+}
+
+.icon {
+    width: 80px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'poetsenone';
+    font-size: 20px;
+    color: white;
+}
+
+.logo-red img {
+    width: 40px;
+}
+
+.btn img {
+    width: 30px;
+}
+
+.text-center {
+    font-family: 'poetsenone';
+    font-size: 10px;
+    color: white;
+}
+
+
+
+
+/* Inicio sesion*/
+.frase {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.contenedor3 {
+    margin: 60px;
+    border-radius: 60px;
+    background-color: #7396a090;
+
+}
+
+.formulario {
+    width: 300px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    opacity: 0.6;
+
+}
+
+.nombre {
+    padding-left: 35px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.boton {
+    height: 40px;
+    background-color: #071E42;
+    border: none;
+    opacity: 0.8;
+}
+
+
+.cortina {
+    width: 100%;
+    background: #0000008f;
+    position: absolute;
+    z-index: -1;
+    min-height: 98vh;
+}
+
+/* Registrarse */
+
+
+.container-form {
+    max-width: 900px;
+    height: 500px;
+    border-radius: 20px;
+    /* sirve para dar sombras */
+    box-shadow: 0 5px 7px rgb(0, 0, 0, 0.1);
+
+}
+
+.infomation {
+    width: 40%;
+    color: #ffffff;
+    background-color: #7396a090;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.info-childs {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.info-childs h2 {
+    font-size: 2.5rem;
+    color: #fafcff;
+}
+
+.info-childs p {
+    margin: 15px 0;
+    color: #fafcff;
+}
+
+.info-childs input {
+    background-color: transparent;
+    border: solid 2px #fafcff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #fafcff;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.info-childs input:hover {
+    background-color: #071E42;
+    border: none;
+    color: #fafcff;
+    box-shadow: 0 5px 7px rgb(0, 0, 0, 0.1);
+}
+
+.form-information {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid thin red;
+}
+
+.form-information-childs {
+    padding: 0 30px;
+}
+
+.form-information-childs h2 {
+    font-size: 2rem;
+}
+
+
+/* de ahi para abajo es donde no me lee ningun cambio  */
+.iconos {
+    margin: 15px 0;
+}
+
+.iconos i {
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+    border: solid thin red;
+}
+
+.form {
+    margin: 30px 0 0 0;
+}
+
+.form label {
+    border: solid thin red;
+}
