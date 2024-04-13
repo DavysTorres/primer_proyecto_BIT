@@ -55,9 +55,7 @@ body {
 .contenedor2 {
   border-radius: 60px;
   background-color: #7396a090;
-
 }
-
 
 
 .formulario {
@@ -67,7 +65,6 @@ body {
   border-radius: 10px;
   background-color: #ffffff;
   opacity: 0.6;
-
 }
 
 .nombre {
@@ -97,4 +94,10 @@ body {
   background: #0000008f;
   position: absolute;
   z-index: -1;
+}
+
+/* Registrarse */
+.registro {
+  font-size: 25px;
+  color: #ffffff;
 }
