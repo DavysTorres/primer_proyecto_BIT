@@ -97,7 +97,7 @@
                 </div>
             </section>
             <section class="px-5 my-3">
-                <div class="d-flex align-content-center justify-content-center text-black">
+                <div class="d-flex align-content-center justify-content-center text-white">
                     En esta seccion encontraras una seleccion de diferentes descuentos para tus viajes. <br>
                     Encontrarás descuento en hospedajes, alquiler de autos, seguros de viajes y tarjetas SIM.
                 </div>
@@ -182,7 +182,7 @@
         </div>
     </div>
 
-    <footer class="navbar navbar-expand-lg opacity-75">
+    <footer class="navbar navbar-expand-lg opacity-75 fixed-bottom">
         <div class="container-fluid">
             <div class="d-flex justify-content-around align-items-center w-100">
                 <div>
@@ -208,7 +208,7 @@
     <script>
         let bodyDOM = document.querySelector("#pepe")
         let nav = document.querySelector("#navbar").offsetHeight
-        let alturaContenido = parseInt(bodyDOM.offsetHeight) + 1
+        let alturaContenido = parseInt(bodyDOM.offsetHeight) + 31
         let cortinaBody = document.querySelector(".cortina")
         cortinaBody.style.height = alturaContenido + "px"
         cortinaBody.style.top = nav + "px"
