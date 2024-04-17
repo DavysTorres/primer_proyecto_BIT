@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'poetsenone';
+    src: url('../fonts/PoetsenOne-Regular.ttf');
+}
+
+
+body {
+    background: url("../img/fondoTourWalk.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.navbar {
+    background-color: #293B56;
+}
+
+.icon {
+    width: 80px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'poetsenone';
+    font-size: 20px;
+    color: white;
+}
+
+.logo-red img {
+    width: 40px;
+}
+
+.btn img {
+    width: 30px;
+}
+
+.text-center {
+    font-family: 'poetsenone';
+    font-size: 10px;
+    color: white;
+}
+
+
+
+
+/* Inicio sesion*/
+.frase {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.contenedor3 {
+    margin: 60px;
+    border-radius: 60px;
+    background-color: #7396a090;
+
+}
+
+.formulario {
+    width: 300px;
+    height: 25px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    opacity: 0.6;
+
+}
+
+.nombre {
+    padding-left: 35px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.boton {
+    height: 40px;
+    background-color: #071E42;
+    border: none;
+    opacity: 0.8;
+}
+
+
+.cortina {
+    width: 100%;
+    background: #0000008f;
+    position: absolute;
+    z-index: -1;
+    min-height: 98vh;
+}
+
+/* Registrarse */
+.registro{
+    font-size: 25px;
+    color: #ffffff;
+}
