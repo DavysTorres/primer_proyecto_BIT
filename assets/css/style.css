@@ -40,3 +40,19 @@ body{
   font-size: 10px;
   color: white;
 }
+
+.cortina {
+  width: 100%;
+  background: #0000008f;
+  position: absolute;
+  z-index: -1;
+  min-height: 100vh;
+}
+
+.text-start{
+  font-family: 'poetsenone';
+}
+
+.mapas img{
+  width: 80%;
+}
