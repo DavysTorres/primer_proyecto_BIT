@@ -41,7 +41,7 @@ body{
   color: white;
 }
 
-<<<<<<< HEAD
+
 .cortina {
   width: 100%;
   background: #0000008f;
@@ -57,5 +57,36 @@ body{
 .mapas img{
   width: 80%;
 }
-=======
->>>>>>> 8bceb08ff15fa381a5d95de1bac1d9119131c547
+
+.targ-logi{
+  background: #467583d0;
+  border-radius: 40px;
+  height: 30vh;
+  transform: translate(80px, 150px);
+}
+
+.title-card{
+  font-family: 'poetsenone';
+  font-size: 35px;
+  color: white;
+}
+
+.parrafo-card{
+  text-align: center;
+  font-family: 'poetsenone';
+  font-size: 1rem;
+  color: white;
+}
+
+.slogan{
+  text-align: center;
+  width: 450px;
+  font-family: 'poetsenone';
+  font-size: 1.5rem;
+  color: #ffffffd0;
+  background: #467583d0;
+  border-radius: 40px;
+  height: 30vh;
+  transform: translate(-50px, 150px);
+}
+

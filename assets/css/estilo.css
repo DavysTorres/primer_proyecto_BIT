@@ -1,0 +1,38 @@
+  
+  .main-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'poetsenone';  
+  }
+
+  .img-size {
+    width:150px;
+    margin-bottom: none;
+  }
+
+  .texto{ 
+    text-wrap: pretty;
+  }
+
+  .radio-caja{
+    border-radius: 30px;
+
+  }
+
+  .carta-color{
+    background-color: #53797ec9;
+  }
+
+.botones{
+  border-radius: 20px;
+  background-color: #071E42;
+  transition: background color .3s;
+}
+
+.botones:hover {
+background-color: #293B56;
+}
+.carta-color:hover {
+background-color: #54696d;
+}

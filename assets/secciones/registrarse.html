@@ -9,16 +9,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="/assets/css/registrarse.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
     <title>TourWalk</title>
 </head>
 
 <body>
-    <section class="cortina"></section>
-    <nav class="navbar navbar-expand-lg opacity-75  " id="navbar">
-        <div class="container-fluid d-flex justify-content-around">
 
-            <link rel="stylesheet" href="../../mockup/dulces.txt">
+    <section class="cortina"></section>
+    <nav class="navbar navbar-expand-lg opacity-75" " id=" navbar">
+        <div class="container-fluid d-flex justify-content-around">
 
             <div>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -64,37 +65,37 @@
             </div>
 
             <div>
-                <img src="/primer_proyecto_BIT/assets/img/TOURWALK2.png" class="icon" alt="">
+                <a href="/mockup/index.html">
+                    <img src="/assets/img/TOURWALK2.png" class="icon" alt="">
+                </a>
             </div>
 
             <div>
-                <a class="nav-link bot">Descuentos</a>
+                <a href="/assets/secciones/descuentos.html"  class="nav-link bot">Descuentos</a>
             </div>
 
             <div>
-                <a class="nav-link bot">Guias</a>
+                <a href="/assets/secciones/guias.html" class="nav-link bot">Guias</a>
             </div>
 
             <div class="d-flex justify-content-center align-items-center profile">
                 <div class="social-links logo-red">
-                    <img src="/primer_proyecto_BIT/assets/icons/facebook1.png" alt="">
-                    <img src="/primer_proyecto_BIT/assets/icons/instagram1.png" alt="">
+                    <img src="/assets/icons/facebook1.png" alt="">
+                    <img src="/assets/icons/instagram1.png" alt="">
                 </div>
                 <div class="btn">
-                    <img src="/primer_proyecto_BIT/assets/icons/buscar1.png" alt="">
+                    <img src="/assets/icons/buscar1.png" alt="">
                 </div>
 
             </div>
     </nav>
 
     <div id="pepe">
-        <section class="fondo contenedor container">
+        <section class=" contenedor container">
 
             <div class="d-flex justify-content-center align-items-center p-3 rounded-2">
-                <div class="contenedor2  w-50 d-flex flex-column justify-content-center align-items-center ">
-                    <p class="registro m-auto d-flex justify-content-center pt-3 "> Registrate
-                    </p>
-
+                <div class="contenedor3  w-50 d-flex flex-column justify-content-center align-items-center ">
+                    <p class="registro m-auto d-flex justify-content-center pt-3 "> Registrate </p>
 
                     <div class="mb-3 ">
                         <label for="formGroupExampleInput" class="nombre form-label fw-bold mb-0 ">Nombres</label>
@@ -117,30 +118,22 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="formGroupExampleInput2" class="nombre form-label fw-bold mb-0">Confirmar
-                            Contraseña</label>
+                        <label for="formGroupExampleInput2" class="nombre form-label fw-bold mb-0">Confirmar Contraseña</label>
                         <input type="password" class="formulario form-control" id="formGroupExampleInput2" placeholder="">
                     </div>
-
-
-                
 
                     <button class="boton btn btn-secondary me-md-2 m-3 " type="button">Registrarse</button>
 
                 </div>
 
-
-
-
-
         </section>
     </div>
 
-    <footer class="navbar navbar-expand-lg opacity-75">
+    <footer class="navbar navbar-expand-lg opacity-75 fixed-bottom">
         <div class="container-fluid">
             <div class="d-flex justify-content-around align-items-center w-100">
                 <div>
-                    <img src="/primer_proyecto_BIT/assets/img/TOURWALK2.png" class="icon ms-lg-5 me-lg-5" alt="">
+                    <img src="/assets/img/TOURWALK2.png" class="icon ms-lg-5 me-lg-5" alt="">
                 </div>
                 <div class="text-center me-lg-5">
                     <p style="margin: 0;">Contacto: info@tourwalk.com</p>
@@ -148,25 +141,22 @@
                     <p style="margin: 0;">&copy; 2024 TourWalk. Todos los derechos reservados.</p>
                 </div>
                 <div class="social-links logo-red ms-lg-5">
-                    <img src="/primer_proyecto_BIT/assets/icons/whatsapp1.png" alt="">
-                    <img src="/primer_proyecto_BIT/assets/icons/correo(2).png" alt="">
+                    <img src="/assets/icons/whatsapp1.png" alt="">
+                    <a href="/assets/secciones/contacto.html">
+                        <img src="/assets/icons/correo(2).png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
     </footer>
 
 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script>
-        let bodyDOM = document.querySelector("#pepe")
-        let nav = document.querySelector("#navbar").offsetHeight
-        let alturaContenido = parseInt(bodyDOM.offsetHeight) + 1
-        let cortinaBody = document.querySelector(".cortina")
-        cortinaBody.style.height = alturaContenido + "px"
-        cortinaBody.style.top = nav + "px"
-    </script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>
+
