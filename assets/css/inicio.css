@@ -34,12 +34,3 @@
   border: none;
   opacity: 0.8;
 }
-
-
-.cortina {
-  width: 100%;
-  background: #0000008f;
-  position: absolute;
-  z-index: -1;
-  min-height: 98vh;
-}
